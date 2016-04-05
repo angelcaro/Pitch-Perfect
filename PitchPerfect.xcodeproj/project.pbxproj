@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89466E791CB4549D0042026A /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89466E781CB4549D0042026A /* PlaySoundsViewController.swift */; };
 		89D203DD1CB412B5002E22ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D203DC1CB412B5002E22ED /* AppDelegate.swift */; };
-		89D203DF1CB412B5002E22ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D203DE1CB412B5002E22ED /* ViewController.swift */; };
+		89D203DF1CB412B5002E22ED /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D203DE1CB412B5002E22ED /* RecordSoundsViewController.swift */; };
 		89D203E21CB412B5002E22ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D203E01CB412B5002E22ED /* Main.storyboard */; };
 		89D203E41CB412B5002E22ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D203E31CB412B5002E22ED /* Assets.xcassets */; };
 		89D203E71CB412B5002E22ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D203E51CB412B5002E22ED /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89466E781CB4549D0042026A /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		89D203D91CB412B5002E22ED /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D203DC1CB412B5002E22ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89D203DE1CB412B5002E22ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89D203DE1CB412B5002E22ED /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		89D203E11CB412B5002E22ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89D203E31CB412B5002E22ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D203E61CB412B5002E22ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				89D203DC1CB412B5002E22ED /* AppDelegate.swift */,
-				89D203DE1CB412B5002E22ED /* ViewController.swift */,
+				89D203DE1CB412B5002E22ED /* RecordSoundsViewController.swift */,
+				89466E781CB4549D0042026A /* PlaySoundsViewController.swift */,
 				89D203E01CB412B5002E22ED /* Main.storyboard */,
 				89D203E31CB412B5002E22ED /* Assets.xcassets */,
 				89D203E51CB412B5002E22ED /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D203DF1CB412B5002E22ED /* ViewController.swift in Sources */,
+				89D203DF1CB412B5002E22ED /* RecordSoundsViewController.swift in Sources */,
+				89466E791CB4549D0042026A /* PlaySoundsViewController.swift in Sources */,
 				89D203DD1CB412B5002E22ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AngelCaro.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AngelCaro.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -286,6 +292,7 @@
 				89D203ED1CB412B5002E22ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
