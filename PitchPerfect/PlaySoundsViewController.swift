@@ -30,7 +30,7 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func playSoundForButton(sender: UIButton) {
-        print("Play sound button pressed")
+        
         
         switch(ButtonType(rawValue: sender.tag)!) {
         
@@ -52,7 +52,8 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func stopButtonPressed(sender: AnyObject) {
-        print("stop audio button pressed")
+        
+        stopAudio()
     }
    
     
@@ -74,14 +75,6 @@ class PlaySoundsViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }
